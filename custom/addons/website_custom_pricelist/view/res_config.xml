@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record id="view_website_config_settings_pricelist_ept" model="ir.ui.view">
+			<field name="name">Website Pricelist settings</field>
+			<field name="model">website.config.settings</field>
+			<field name="inherit_id" ref="website.view_website_config_settings" />
+			<field name="arch" type="xml">
+				<xpath expr="//group[@string='Social Media']" position="after">
+					<group string="Website Prices">
+						<label for="pricelist_id" />
+						<div name="pricelist_id">
+							<div>
+								<div name="pricelist_id" class="oe_inline">
+									<field name="pricelist_id" widget="selection"/>
+								</div>
+							</div>
+						</div>
+					</group>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>
