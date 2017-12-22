@@ -1,0 +1,22 @@
+{
+    'name': "Birthday Age Calculator",
+    'version': "1.2",
+    'author': "Odoo Tips",
+    'category': "Tools",
+    'support': "www.gotodoo.com",
+    'summary':'Calculate the age of partners and employees automatically',
+    'license':'LGPL-3',
+    'currency': 'EUR',
+    'price': 25.00,
+    'depends': ['base', 'hr',
+                ],
+    'data': [
+        'data/age_calculator_data.xml',
+        'views/res_partner_view.xml',
+        'views/hr_employee_view.xml',
+    ],
+    'demo': [],
+    'images': ['images/main_screenshot.png'],
+    'installable': True,
+    'application': True,
+}

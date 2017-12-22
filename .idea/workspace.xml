@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0fda3a-6533-4291-9e8b-c406561840b3" name="Default" comment="" />
+    <list default="true" id="6a0fda3a-6533-4291-9e8b-c406561840b3" name="Default" comment="hello">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/images/main_screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/employee_age.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/employee_cron.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/partner_age.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/partner_cron.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/static/description/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/static/description/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/images/main_screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/city.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/city_state.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/states.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/states2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/contract.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/cybro_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/report1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/report2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/rule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/structure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/__manifest__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/data/age_calculator_data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/data/ir.cron.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/hr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/res_partner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/views/hr_employee_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/views/res_partner_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/README.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/__manifest__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/ar.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/de.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/es.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/fi.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/fr.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/hr.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/hr_HR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/it.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/nl_NL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/pl.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/pt_BR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/ro.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/sl.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays_line.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/security/ir.model.access.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/static/description/icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/tests/test_public_holidays.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/views/hr_public_holidays_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/README.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/__manifest__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/de.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/es.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/fr.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/hr_worked_days_from_timesheet.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/sl.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip_worked_days.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/tests/test_worked_days_from_timesheet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/views/hr_payslip_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/__manifest__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/hr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/views/hr_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/__manifest__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/data/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/models/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/security/ir.model.access.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/views/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml" afterPath="$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +104,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="school.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/custom/addons/school/models/school.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="l10n_ma_hr_digitalworks.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/l10n_ma_hr_digitalworks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-589">
-              <caret line="200" column="57" lean-forward="false" selection-start-line="200" selection-start-column="57" selection-end-line="200" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="252">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="e#96#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,34 +128,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>student.student</find>
-      <find>standar</find>
-      <find>standard.</find>
-      <find>student.stude</find>
-      <find>subject</find>
-      <find>The standa</find>
-      <find>the standard</find>
-      <find>generate_result</find>
-      <find>The obtained marks</find>
-      <find>attendance_month</find>
-      <find>action_student_attendance_by_month</find>
-      <find>monthly</find>
-      <find>state_id</find>
-      <find>next_by_code</find>
-      <find>standard_id</find>
-      <find>line_ids</find>
-      <find>fees_structure_id</find>
-      <find>pid</find>
-      <find>time</find>
-      <find>grade.master</find>
-      <find>academic.month</find>
+      <find>position=&quot;attr</find>
+      <find>depart</find>
+      <find>av_sal</find>
+      <find>trial_date_end</find>
+      <find>Integer</find>
+      <find>menu_configuration</find>
+      <find>menu_ems</find>
       <find>action_student_student_form_2</find>
       <find>view_student_student_form_2</find>
+      <find>view_student_student_search_2</find>
+      <find>Date</find>
+      <find>view_student_student_tree</find>
+      <find>self.env</find>
+      <find>employee_id</find>
       <find>user_id</find>
-      <find>get_name</find>
-      <find>name_get</find>
-      <find>monthly_attendance_sheet_open_window</find>
+      <find>create</find>
+      <find>selection</find>
+      <find>lines</find>
+      <find>reference_ids</find>
+      <find>One2many</find>
+      <find>&lt;/notebook&gt;</find>
+      <find>student.reference</find>
+      <find>default_user</find>
+      <find>now</find>
+      <find>readonly</find>
+      <find>_compute_indimnite_pro_tx_normal</find>
+      <find>hr.em</find>
+      <find>name</find>
+      <find>env</find>
+      <find>search</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/odoo/addons/anonymization</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,14 +187,32 @@
         <option value="$PROJECT_DIR$/custom/addons/create_webpage_example/views/example_webpage.xml" />
         <option value="$PROJECT_DIR$/custom/addons/create_webpage_example/__init__.py" />
         <option value="$PROJECT_DIR$/custom/addons/school/models/school.py" />
+        <option value="$PROJECT_DIR$/custom/addons/syst_hr_payroll_ma/config.xml" />
+        <option value="$PROJECT_DIR$/odoo/addons/hr/models/hr.py" />
+        <option value="$PROJECT_DIR$/custom/addons/payroll_timesheet/models/models.py" />
+        <option value="$PROJECT_DIR$/custom/addons/payroll_timesheet/views/views.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/models/l10n_ma_hr_payroll.py" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_extention/views/hr_view.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/hr.py" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/__init__.py" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/hr.py" />
+        <option value="$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/__manifest__.py" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/__manifest__.py" />
+        <option value="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays.py" />
+        <option value="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays_line.py" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/views/l10n_ma_hr_payroll_view.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/views/hr_view.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/views/l10n_ma_hr_digitalworks_view.xml" />
+        <option value="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/l10n_ma_hr_digitalworks.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
-    <option name="y" value="24" />
-    <option name="width" value="1277" />
-    <option name="height" value="716" />
+    <option name="y" value="34" />
+    <option name="width" value="1275" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,50 +238,24 @@
               <item name="odoo10" type="b2602c69:ProjectViewProjectNode" />
               <item name="odoo10" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="odoo10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo10" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odoo10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo10" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odoo10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo10" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odoo10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odoo10" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="addons" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Odoo8_Workspace/odoo_notaire" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/custom/addons" />
-      <recent name="$PROJECT_DIR$/custom/addons/create_webpage_example/controllers" />
-      <recent name="$PROJECT_DIR$/custom/addons/create_webpage_example" />
-      <recent name="$PROJECT_DIR$/custom/addons/school/i18n" />
+      <recent name="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/views" />
+      <recent name="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models" />
+      <recent name="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description" />
+      <recent name="$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,13 +303,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="24" width="1303" height="780" extended-state="7" />
+    <frame x="75" y="34" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33205226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28900847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23802395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5900901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -227,7 +323,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -236,6 +331,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,341 +346,341 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_snippet_data_slider/views/assets.xml">
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr/models/hr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="21">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/odoo/addons/crm/models/calendar.py">
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_payroll/views/hr_payroll_views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="159">
+          <caret line="244" column="28" lean-forward="true" selection-start-line="244" selection-start-column="28" selection-end-line="244" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip_worked_days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/odoo/addons/crm/models/crm_activity.py">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_extention/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/views/identity_card.xml">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_extention/views/hr_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/views/report_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/views/school_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13392">
-          <caret line="414" column="47" lean-forward="false" selection-start-line="414" selection-start-column="20" selection-end-line="414" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/i18n/fr.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="1005" column="18" lean-forward="false" selection-start-line="1005" selection-start-column="18" selection-end-line="1005" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/odoo/addons/crm/views/crm_lead_views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="70" column="94" lean-forward="true" selection-start-line="70" selection-start-column="94" selection-end-line="70" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/timetable/views/timetable_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="38" selection-end-column="68" />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/views/school_attendance_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="193" column="41" lean-forward="false" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/models/school_attendance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/timetable/models/timetable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="99" column="70" lean-forward="false" selection-start-line="99" selection-start-column="70" selection-end-line="99" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/wizard/attendance_sheet_wizard_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/wizard/attendance_sheet_wizard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/wizard/student_attendance_by_month.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="41" column="72" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/wizard/student_attendance_by_month_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/exam/wizard/batch_result.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/wizard/assign_roll_no_wizard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/wizard/assign_roll_no.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/school/wizard/move_standards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/nice_slider/__openerp__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/nice_slider/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/controllers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/data/ir_config_parameter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/controllers/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/static/description/change_background_dawn.jpg">
+    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/static/description/SchoolAttendance.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/static/src/img/background_login_1.png">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/city.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/static/src/img/background_login_2.png">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/city_state.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/static/src/img/background_login_3.png">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/states.png" />
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/states2.png" />
+    <entry file="file://$PROJECT_DIR$/custom/addons/school_attendance/static/description/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/static/src/css/web_login_style.css">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/images/main_screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/static/description/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/templates/webclient_templates.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/odoo_web_login/templates/website_templates.xml">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/hr.py" />
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/data/l10n_ma_hr_payroll_data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/nice_slider/views/slider.xml">
+    <entry file="file://$PROJECT_DIR$/odoo-server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/nice_slider/views/assets.xml">
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/hr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/birthday_age_calculator/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/models/l10n_ma_hr_payroll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/ar.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/create_webpage_example/views/example_webpage.xml">
+    <entry file="file://$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/hr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/create_webpage_example/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/create_webpage_example/__init__.py">
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/create_webpage_example/controllers/__init__.py">
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays_line.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/clear_cart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/screen1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/screen2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/variant.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/emipro_apps.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/static/description/blog.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/controller/main.py">
+    <entry file="file://$PROJECT_DIR$/custom/addons/payroll_timesheet/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/view/res_config.xml">
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_employee_id/models/res_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_employee_id/data/hr_employee_sequence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/create_webpage_example/controllers/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/addons/website_custom_pricelist/model/website.py">
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_employee_id/tests/test_employee_id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_timesheet_attendance/views/hr_timesheet_attendance_config_settings_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_timesheet_attendance/models/hr_attendance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_timesheet_attendance/views/hr_timesheet_sheet_views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_timesheet/project_timesheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/hr_timesheet/hr_timesheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_employee_id/models/res_company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/hr_employee_id/models/hr_employee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/payroll_timesheet/views/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/payroll_timesheet/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/school/views/school_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="266" column="35" lean-forward="false" selection-start-line="266" selection-start-column="24" selection-end-line="266" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_payroll_10Basic/views/l10n_ma_hr_payroll_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/addons/school/models/school.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="200" column="57" lean-forward="false" selection-start-line="200" selection-start-column="57" selection-end-line="200" selection-end-column="57" />
+        <state relative-caret-position="11487">
+          <caret line="555" column="4" lean-forward="false" selection-start-line="555" selection-start-column="4" selection-end-line="556" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/views/l10n_ma_hr_digitalworks_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="155" column="25" lean-forward="false" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/views/hr_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/project/models/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#100#122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odoo/addons/project/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/l10n_ma_hr_digitalworks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#96#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

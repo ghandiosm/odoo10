@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+        <menuitem
+            action="hr.action_hr_job"
+            id="menu_hr_job"
+            parent="hr.menu_human_resources_configuration"
+        />
+
+
+
+        <record model="ir.ui.view" id="hr_employee_form_extension">
+            <field name="name">hr.employee form extension</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="model">hr.employee</field>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@class='oe_title']" position="after">
+                    <div class="oe_title">
+                        <label for="matricule_dw" class="oe_edit_only"/>
+                        <h1>
+                            <field name="matricule_dw" placeholder="Matricule DW"/>
+                        </h1>
+                    </div>
+                    <div class="oe_title">
+                        <label for="matricule_dw_bcp" class="oe_edit_only"/>
+                        <h1>
+                            <field name="matricule_dw_bcp" placeholder="Maticule DW BCP"/>
+                        </h1>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- hr.dw.category -->
+        <record id="view_hr_dw_category_form" model="ir.ui.view">
+            <field name="name">hr.emp.dw.category.form</field>
+            <field name="model">hr.employee.dw.category</field>
+            <field name="arch" type="xml">
+                <form string="Job">
+                    <sheet>
+                        <group name="employee_category_data">
+                            <group>
+                                <field name="name"/>
+                                <field name="salaire_net"/>
+                                <field name="salaire_base"/>
+                            </group>
+                            <group>
+                                <field name="indimnite_transport"/>
+                                <field name="indimnite_panier"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_dw_category_tree" model="ir.ui.view">
+            <field name="name">hr.emp.dw.category.tree</field>
+            <field name="model">hr.employee.dw.category</field>
+            <field name="arch" type="xml">
+                <tree string="Job" decoration-bf="message_needaction==True">
+                    <field name="name"/>
+                    <field name="salaire_base"/>
+                    <field name="salaire_net"/>
+                    <field name="indimnite_transport"/>
+                    <field name="indimnite_panier"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="action_hr_emp_dw_category" model="ir.actions.act_window">
+            <field name="name">Employee DW Category</field>
+            <field name="res_model">hr.employee.dw.category</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to define a new job position.
+              </p><p>
+                Job Positions are used to define jobs and their requirements.
+                You can keep track of the number of employees you have per job
+                position and follow the evolution according to what you planned
+                for the future.
+              </p><p>
+                You can attach a survey to a job position. It will be used in
+                the recruitment process to evaluate the applicants for this job
+                position.
+              </p>
+            </field>
+        </record>
+
+        <menuitem
+            action="action_hr_emp_dw_category"
+            id="menu_hr_dw_category_job"
+            parent="hr.menu_human_resources_configuration"
+        />
+
+
+</odoo>

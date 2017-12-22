@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<odoo>
+  <data noupdate="0">
+
+    <record id="partner_age_calculator_scheduler" model="ir.cron">
+      <field name="function">update_ages</field>
+      <field name="interval_type">work_days</field>
+      <field name="name">PARTNER Age calculator scheduler</field>
+      <field name="numbercall">-1</field>
+      <field name="priority">5</field>
+      <field name="doall">False</field>
+      <field name="active">True</field>
+      <field name="nextcall" eval="(DateTime.now() + timedelta(days=1)).strftime('%Y-%m-%d 23:00:00')" />
+      <field name="interval_number">1</field>
+      <field name="model">res.partner</field>
+    </record>
+
+    <record id="employee_age_calculator_scheduler" model="ir.cron">
+      <field name="function">update_ages</field>
+      <field name="interval_type">work_days</field>
+      <field name="name">EMPLOYEE Age calculator scheduler</field>
+      <field name="numbercall">-1</field>
+      <field name="priority">5</field>
+      <field name="doall">False</field>
+      <field name="active">True</field>
+      <field name="nextcall" eval="(DateTime.now() + timedelta(days=1)).strftime('%Y-%m-%d 23:00:00')" />
+      <field name="interval_number">1</field>
+      <field name="model">hr.employee</field>
+    </record>
+
+  </data>
+</odoo>
