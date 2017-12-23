@@ -1,100 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a0fda3a-6533-4291-9e8b-c406561840b3" name="Default" comment="hello">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/images/main_screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/employee_age.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/employee_cron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/partner_age.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/partner_cron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/static/description/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/static/description/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/images/main_screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/city.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/city_state.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/states.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/states2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/contract.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/cybro_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/payslip3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/report1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/report2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/rule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/structure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/__manifest__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/data/age_calculator_data.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/data/ir.cron.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/hr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/models/res_partner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/static/description/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/views/hr_employee_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/birthday_age_calculator/views/res_partner_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/README.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/__manifest__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/ar.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/de.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/es.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/fi.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/fr.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/hr.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/hr_HR.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/it.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/nl_NL.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/pl.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/pt_BR.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/ro.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/i18n/sl.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/models/hr_public_holidays_line.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/security/ir.model.access.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/static/description/icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/tests/test_public_holidays.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/views/hr_public_holidays_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_public_holidays/wizards/public_holidays_next_year_wizard.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/README.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/__manifest__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/de.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/es.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/fr.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/hr_worked_days_from_timesheet.pot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/i18n/sl.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/models/hr_payslip_worked_days.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/tests/test_worked_days_from_timesheet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/hr_worked_days_from_timesheet/views/hr_payslip_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/__manifest__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/models/hr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/static/description/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/l10n_ma_extention/views/hr_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/__manifest__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/data/data.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/models/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/security/ir.model.access.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/static/description/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/views/views.xml" />
+    <list default="true" id="6a0fda3a-6533-4291-9e8b-c406561840b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml" afterPath="$PROJECT_DIR$/odoo/addons/hr/views/hr_views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/addons/payroll_timesheet/README.md" afterPath="$PROJECT_DIR$/custom/addons/payroll_timesheet/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,8 +17,8 @@
       <file leaf-file-name="l10n_ma_hr_digitalworks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/l10n_ma_hr_digitalworks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="378">
+              <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
               <folding>
                 <element signature="e#96#132#0" expanded="true" />
               </folding>
@@ -230,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,12 +150,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -300,17 +209,23 @@
       <option name="presentableId" value="Default" />
       <updated>1506210954335</updated>
     </task>
+    <task id="LOCAL-00001" summary="hello">
+      <created>1513961616477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513961616478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="34" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28900847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28900847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5900901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3183183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -323,6 +238,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5900901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -628,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11487">
           <caret line="555" column="4" lean-forward="false" selection-start-line="555" selection-start-column="4" selection-end-line="556" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="155" column="25" lean-forward="false" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-756">
           <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#100#122#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,14 +579,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/addons/l10n_ma_hr_digitalworks/models/l10n_ma_hr_digitalworks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="378">
+          <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
           <folding>
             <element signature="e#96#132#0" expanded="true" />
           </folding>
