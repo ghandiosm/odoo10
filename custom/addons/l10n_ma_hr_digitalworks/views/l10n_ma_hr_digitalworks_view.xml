@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+
+
+     <record id="hr_contract_view_form_l10n_ma_digitalworks" model="ir.ui.view">
+            <field name="name">hr.contract.view.form.l10n.ma_digitalworks</field>
+            <field name="model">hr.contract</field>
+            <field name="priority">20</field>
+            <field name="inherit_id" ref="hr_payroll.hr_contract_form_inherit"/>
+			<field name="arch" type="xml">
+
+			<data>
+                <xpath expr="//field[@name='job_id']" position="after">
+                    <field name="grade_id" string="Grade"/>
+                </xpath>
+                <xpath expr="//field[@name='type_id']" position="after">
+                    <field name="category_id" string="Catégorie Employé"/>
+                </xpath>
+                <xpath expr="//field[@name='wage']" position="after">
+                    <field name="salaire_base"/>
+                    <field name="indimnite_panier"/>
+                    <field name="indimnite_transport"/>
+                </xpath>
+             </data>
+
+            </field>
+        </record>
+
+        <record id="hr_payslip_form_l10n_ma_digitalworks" model="ir.ui.view">
+            <field name="name">hr.payslip.form.l10n.ma_digitalworks</field>
+            <field name="model">hr.payslip</field>
+            <field name="priority">20</field>
+            <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form"/>
+            <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='worked_days_line_ids']" position="after">
+                     <separator string="Indimnités"/>
+                     <group >
+                         <field name="indimnite_pro"/>
+                         <field name="indimnite_pro_tx_normal"/>
+                         <field name="indimnite_formation"/>
+                         <field name="indimnite_conge"/>
+                         <group>
+                            <field name="base_calcul_pack"/>
+                            <field name="pack_taux"/>
+                         </group>
+                         <group>
+                            <field name="base_calcul_challenge"/>
+                            <field name="challenge"/>
+                         </group>
+                     </group>
+                    <separator string="Bonus"/>
+                    <group>
+                         <field name="bonus"/>
+                    </group>
+                    <separator string="Retenu sur Salaire"/>
+                    <group>
+                        <field name="retenu_sur_salaire"/>
+                    </group>
+                    <separator string="Reguls"/>
+                    <group>
+                         <field name="reguls"/>
+                    </group>
+                </xpath>
+
+            </data>
+            </field>
+        </record>
+
+        <record id="view_hr_timesheet_cms_form" model="ir.ui.view">
+            <field name="name">view.hr.timesheet.cms.form</field>
+            <field name="model">hr.timesheet.cms</field>
+            <field name="arch" type="xml">
+                <form string="Feuille de Temps CMS">
+                    <sheet>
+                        <group>
+                            <group string="Informations Agent">
+                                <field name="employee_id"/>
+                                <field name="matricule_dw" placeholder="Matricule DW"/>
+                                <field name="matricule_dw_prod" placeholder="Matricule DW Prod"/>
+                                <field name="id_avaya"/>
+                                <field name="date"/>
+                            </group>
+                            <group string="Information Appels">
+                               <field name="appels_repondu"/>
+                                <field name="appels_sortant"/>
+                            </group>
+                            <group string="Information Temps">
+                               <field name="temps_connecte"/>
+                                <field name="temps_lunch"/>
+                                <field name="temps_paie_cms"/>
+                                <field name="temps_paie_travaille"/>
+                            </group>
+                        </group>
+                        <notebook>
+                        <page string="Correctives">
+                                <field name="corrective_ids" colspan="4" context="{'default_user_id' : uid}">
+                                    <tree string="Corrective" editable="top">
+                                        <field name="date" readonly="1"/>
+                                        <field name="user_id" readonly="1"/>
+                                        <field name="type_operation" />
+                                        <field name="nbr_hours" />
+                                        <field name="motif_id"/>
+                                    </tree>
+                                    <form string="Corrective">
+                                        <group col="4" colspan="4">
+                                            <field name="date" readonly="1"/>
+                                            <field name="user_id" readonly="1"/>
+                                            <field name="type_operation"/>
+                                            <field name="nbr_hours"/>
+                                            <field name="motif_id"/>
+                                        </group>
+                                    </form>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+         <record id="view_hr_timesheet_cms_tree" model="ir.ui.view">
+            <field name="name">view.hr.timesheet.cms.tree</field>
+            <field name="model">hr.timesheet.cms</field>
+            <field name="arch" type="xml">
+                <tree string="Feuille de Temps CMS">
+                    <field name="date" />
+                    <field name="id_avaya" />
+                    <field name="employee_id" />
+                    <field name="matricule_dw_prod"/>
+                    <field name="appels_repondu" />
+                    <field name="appels_sortant" />
+                    <field name="temps_paie_cms"/>
+                    <field name="temps_paie_travaille"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_hr_timesheet_cms" model="ir.actions.act_window">
+            <field name="name">Feuille de Temps CMS</field>
+            <field name="res_model">hr.timesheet.cms</field>
+            <field name="domain"></field>
+<!--             <field name="context">{'search_default_state_student': 1}</field> -->
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_hr_timesheet_cms_tree" />
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="view_hr_timesheet_cms_motif_form" model="ir.ui.view">
+            <field name="name">view.hr.timesheet.cms.motif.form</field>
+            <field name="model">cms.corrective.motif</field>
+            <field name="arch" type="xml">
+                <form string="Motifs Changement CMS">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_timesheet_cms_motifs_tree" model="ir.ui.view">
+            <field name="name">view.hr.timesheet.cms.motif.tree</field>
+            <field name="model">cms.corrective.motif</field>
+            <field name="arch" type="xml">
+                <tree string="Motifs Changement CMS">
+                    <field name="name" />
+                    <field name="description" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_hr_timesheet_cms_motifs" model="ir.actions.act_window">
+            <field name="name">Motifs Changement CMS</field>
+            <field name="res_model">cms.corrective.motif</field>
+            <field name="domain"></field>
+<!--             <field name="context">{'search_default_state_student': 1}</field> -->
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_hr_timesheet_cms_motifs_tree" />
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_timesheet_prod" name="Feuilles de Temps Prod" sequence="40"/>
+        <menuitem id="menu_timesheets_prod" name="Feuilles de Temps Prod" parent="menu_timesheet_prod" sequence="1"/>
+        <menuitem id="menu_timesheet_cms" name="Feuilles de Temps CMS" parent="menu_timesheets_prod" action="action_hr_timesheet_cms" sequence="1"/>
+        <menuitem id="menu_timesheets_prod_conf" name="Configuration" parent="menu_timesheet_prod" sequence="10"/>
+        <menuitem id="menu_timesheets_prod_conf_motif" name="Motifs" parent="menu_timesheets_prod_conf" action="action_hr_timesheet_cms_motifs" sequence="1"/>
+    </data>
+</odoo>

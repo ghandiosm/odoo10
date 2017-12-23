@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+        <menuitem
+            action="hr.action_hr_job"
+            id="menu_hr_job"
+            parent="hr.menu_human_resources_configuration"
+        />
+
+
+        <record model="ir.ui.view" id="hr_employee_form_extension">
+            <field name="name">hr.employee form extension</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="model">hr.employee</field>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@class='oe_title']" position="after">
+                    <div class="oe_title">
+                        <label for="matricule_dw" class="oe_edit_only"/>
+                        <h1>
+                            <field name="matricule_dw" placeholder="Matricule DW"/>
+                        </h1>
+                    </div>
+                    <div class="oe_title">
+                        <label for="matricule_dw_bcp" class="oe_edit_only"/>
+                        <h1>
+                            <field name="matricule_dw_bcp" placeholder="Maticule DW BCP"/>
+                        </h1>
+                    </div>
+                </xpath>
+
+		        <xpath expr="//field[@name='coach_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+		        <xpath expr="//field[@name='calendar_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+		        <xpath expr="//field[@name='department_id']" position="before">
+                    <field name="company_id"/>
+                </xpath>
+
+                <xpath expr="//field[@name='work_phone']" position="after">
+                    <field name="id_avaya"/>
+                </xpath>
+
+		        <xpath expr="//field[@name='address_home_id']" position="after">
+                    <field name="adresse_personnelle"/>
+		            <field name="ville_personnelle"/>
+                </xpath>
+
+		        <xpath expr="//field[@name='passport_id']" position="after">
+                    <field name="date_expiration_passport"/>
+					<field name="cin"/>
+					<field name="date_expiration_cin"/>
+					<field name="num_carte_sejour"/>
+					<field name="date_expiration_carte_sejour"/>
+                </xpath>
+
+		        <xpath expr="//notebook/page[2]/group/group[2]" position="after">
+                           <group string="Numéros d'affiliation">
+								<field name="matricule_cnss"/>
+								<field name="matricule_cimr"/>
+								<field name="matricule_mut"/>
+							</group>
+                </xpath>
+
+                <xpath expr="//notebook/page[2]" position="after">
+                    <page string="Documents Administratifs">
+                        <group>
+                            <group string="Documents Administratif">
+                                <field name="has_cin"/>
+                                <field name="has_carte_sejour"/>
+                                <field name="has_photos"/>
+                                <field name="has_fiche_anthropometrique"/>
+                                <field name="has_radio_pulmonaire"/>
+                                <field name="has_justif_salaire"/>
+                                <field name="has_attestation_travail"/>
+                                <field name="has_diplome"/>
+                            </group>
+                            <group string="Dates Dépôts">
+                                <field name="date_depot_cin"/>
+                                <field name="date_depot_photos"/>
+                                <field name="date_depot_fiche_anthropometrique"/>
+                                <field name="date_depot_radio_pulmonaire"/>
+                                <field name="date_depot_justif_salaire"/>
+                                <field name="date_depot_attestation_travail"/>
+                                <field name="date_depot_diplome"/>
+                            </group>
+                            <group string="Conjoint" attrs="{'invisible':[('marital', '!=', 'married')]}">
+                                <field name="has_conjoint_actmariage"/>
+                                <field name="has_conjoint_cin"/>
+                                <field name="has_conjoint_attestation_travail"/>
+                                <field name="has_cojoint_cnss"/>
+                            </group>
+                            <group string="Dates Dépôts" attrs="{'invisible':[('marital', '!=', 'married')]}">
+                                <field name="date_depot_conjoint_actmariage"/>
+                                <field name="date_depot_conjoint_cin"/>
+                                <field name="date_depot_conjoint_attestation_travail"/>
+                                <field name="date_depot_cojoint_cnss"/>
+                            </group>
+                            <group string="Enfants" attrs="{'invisible':[('children', '=', 0)]}">
+                                <field name="has_enfant_actnaissance"/>
+                            </group>
+                            <group string="Dates Dépôts" attrs="{'invisible':[('children', '=', 0)]}">
+                                <field name="date_depot_enfant_actnaissance"/>
+                            </group>
+
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- hr.dw.category -->
+        <record id="view_hr_dw_grade_form" model="ir.ui.view">
+            <field name="name">hr.emp.dw.grade.form</field>
+            <field name="model">hr.employee.dw.grade</field>
+            <field name="arch" type="xml">
+                <form string="Grade">
+                    <sheet>
+                        <group name="employee_category_data">
+                            <group>
+                                <field name="name"/>
+                                <field name="salaire_net"/>
+                                <field name="salaire_base"/>
+                            </group>
+                            <group>
+                                <field name="indimnite_transport"/>
+                                <field name="indimnite_panier"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_dw_grade_tree" model="ir.ui.view">
+            <field name="name">hr.emp.dw.grade.tree</field>
+            <field name="model">hr.employee.dw.grade</field>
+            <field name="arch" type="xml">
+                <tree string="Grade" decoration-bf="message_needaction==True">
+                    <field name="name"/>
+                    <field name="salaire_base"/>
+                    <field name="salaire_net"/>
+                    <field name="indimnite_transport"/>
+                    <field name="indimnite_panier"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="action_hr_emp_dw_grade" model="ir.actions.act_window">
+            <field name="name">Employee DW Grade</field>
+            <field name="res_model">hr.employee.dw.grade</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to define a new Grade Employee.
+              </p><p>
+                Job Positions are used to define jobs and their requirements.
+                You can keep track of the number of employees you have per job
+                position and follow the evolution according to what you planned
+                for the future.
+              </p><p>
+                You can attach a survey to a job position. It will be used in
+                the recruitment process to evaluate the applicants for this job
+                position.
+              </p>
+            </field>
+        </record>
+
+        <menuitem
+            action="action_hr_emp_dw_grade"
+            id="menu_hr_dw_grade_job"
+            parent="hr.menu_human_resources_configuration"
+        />
+
+
+
+</odoo>
