@@ -58,6 +58,7 @@ class hr_payslip(models.Model):
     retenu_sur_salaire = fields.Float(u'Retenu sur Salaire')
     reguls = fields.Float(u'Réguls')
 
+    @api.one
     def _compute_indimnite_pro(self):
         timesheets_cms_object = self.env['hr.timesheet.cms']
         timesheets_cms_hours = timesheets_cms_object.search([('employee_id','=', self.employee_id.id),
@@ -66,9 +67,7 @@ class hr_payslip(models.Model):
         total_hours = 0.0
         name = ""
         for timesheet_cms_hours in timesheets_cms_hours:
-            nname = timesheet_cms_hours.employee_id.name
-            print "Employee Name is  "+str(nname)
-            total_hours += timesheet_cms_hours.temps_paie_cms
+            total_hours += timesheet_cms_hours.temps_paie_travaille
 
         self.indimnite_pro = total_hours
 
